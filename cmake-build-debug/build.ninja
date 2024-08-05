@@ -57,6 +57,46 @@ build CMakeFiles/minesweeper.dir/main.cpp.obj: CXX_COMPILER__minesweeper_unscann
   OBJECT_DIR = CMakeFiles\minesweeper.dir
   OBJECT_FILE_DIR = CMakeFiles\minesweeper.dir
 
+build CMakeFiles/minesweeper.dir/WelcomeWindow.cpp.obj: CXX_COMPILER__minesweeper_unscanned_Debug C$:/Users/johnl/OneDrive/Documents/UF/Intro$ to$ Programming$ 2/Labs/minesweeper/WelcomeWindow.cpp || cmake_object_order_depends_target_minesweeper
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\minesweeper.dir\WelcomeWindow.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/johnl/OneDrive/Documents/UF/Intro to Programming 2/Labs/minesweeper/cmake-build-debug/_deps/sfml-src/include"
+  OBJECT_DIR = CMakeFiles\minesweeper.dir
+  OBJECT_FILE_DIR = CMakeFiles\minesweeper.dir
+
+build CMakeFiles/minesweeper.dir/Board.cpp.obj: CXX_COMPILER__minesweeper_unscanned_Debug C$:/Users/johnl/OneDrive/Documents/UF/Intro$ to$ Programming$ 2/Labs/minesweeper/Board.cpp || cmake_object_order_depends_target_minesweeper
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\minesweeper.dir\Board.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/johnl/OneDrive/Documents/UF/Intro to Programming 2/Labs/minesweeper/cmake-build-debug/_deps/sfml-src/include"
+  OBJECT_DIR = CMakeFiles\minesweeper.dir
+  OBJECT_FILE_DIR = CMakeFiles\minesweeper.dir
+
+build CMakeFiles/minesweeper.dir/CMakeFiles/Leaderboard.cpp.obj: CXX_COMPILER__minesweeper_unscanned_Debug C$:/Users/johnl/OneDrive/Documents/UF/Intro$ to$ Programming$ 2/Labs/minesweeper/cmake-build-debug/CMakeFiles/Leaderboard.cpp || cmake_object_order_depends_target_minesweeper
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\minesweeper.dir\CMakeFiles\Leaderboard.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/johnl/OneDrive/Documents/UF/Intro to Programming 2/Labs/minesweeper/cmake-build-debug/_deps/sfml-src/include"
+  OBJECT_DIR = CMakeFiles\minesweeper.dir
+  OBJECT_FILE_DIR = CMakeFiles\minesweeper.dir\CMakeFiles
+
+build CMakeFiles/minesweeper.dir/TextureManager.cpp.obj: CXX_COMPILER__minesweeper_unscanned_Debug C$:/Users/johnl/OneDrive/Documents/UF/Intro$ to$ Programming$ 2/Labs/minesweeper/TextureManager.cpp || cmake_object_order_depends_target_minesweeper
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\minesweeper.dir\TextureManager.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/johnl/OneDrive/Documents/UF/Intro to Programming 2/Labs/minesweeper/cmake-build-debug/_deps/sfml-src/include"
+  OBJECT_DIR = CMakeFiles\minesweeper.dir
+  OBJECT_FILE_DIR = CMakeFiles\minesweeper.dir
+
+build CMakeFiles/minesweeper.dir/Leaderboard.cpp.obj: CXX_COMPILER__minesweeper_unscanned_Debug C$:/Users/johnl/OneDrive/Documents/UF/Intro$ to$ Programming$ 2/Labs/minesweeper/Leaderboard.cpp || cmake_object_order_depends_target_minesweeper
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\minesweeper.dir\Leaderboard.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/johnl/OneDrive/Documents/UF/Intro to Programming 2/Labs/minesweeper/cmake-build-debug/_deps/sfml-src/include"
+  OBJECT_DIR = CMakeFiles\minesweeper.dir
+  OBJECT_FILE_DIR = CMakeFiles\minesweeper.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target minesweeper
@@ -65,7 +105,7 @@ build CMakeFiles/minesweeper.dir/main.cpp.obj: CXX_COMPILER__minesweeper_unscann
 #############################################
 # Link the executable minesweeper.exe
 
-build minesweeper.exe: CXX_EXECUTABLE_LINKER__minesweeper_Debug CMakeFiles/minesweeper.dir/main.cpp.obj | _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a || _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a
+build minesweeper.exe: CXX_EXECUTABLE_LINKER__minesweeper_Debug CMakeFiles/minesweeper.dir/main.cpp.obj CMakeFiles/minesweeper.dir/WelcomeWindow.cpp.obj CMakeFiles/minesweeper.dir/Board.cpp.obj CMakeFiles/minesweeper.dir/CMakeFiles/Leaderboard.cpp.obj CMakeFiles/minesweeper.dir/TextureManager.cpp.obj CMakeFiles/minesweeper.dir/Leaderboard.cpp.obj | _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a || _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a
   FLAGS = -g
   LINK_LIBRARIES = _deps/sfml-build/lib/libsfml-graphics-s-d.a  _deps/sfml-build/lib/libsfml-window-s-d.a  _deps/sfml-build/lib/libsfml-system-s-d.a  -lopengl32  -lwinmm  -lgdi32  _deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\minesweeper.dir

@@ -10,7 +10,19 @@ FetchContent_Declare(SFML
         GIT_TAG 2.6.x)
 FetchContent_MakeAvailable(SFML)
 
-add_executable(minesweeper main.cpp)
+add_executable(minesweeper main.cpp
+        WelcomeWindow.cpp
+        WelcomeWindow.h
+        Board.cpp
+        Board.h
+        Cell.h
+        cmake-build-debug/CMakeFiles/Leaderboard.cpp
+        cmake-build-debug/CMakeFiles/Leaderboard.h
+        TextureManager.cpp
+        TextureManager.h
+        Leaderboard.cpp
+        Leaderboard.h
+)
 target_link_libraries(minesweeper PRIVATE sfml-graphics)
 target_compile_features(minesweeper PRIVATE cxx_std_17)
 
